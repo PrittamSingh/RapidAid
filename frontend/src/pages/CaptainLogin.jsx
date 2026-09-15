@@ -41,7 +41,7 @@ const CaptainLogin = () => {
       const location = await getLocation();
 
       const response = await axios.post(
-        "http://localhost:8003/api/v1/captain/login",
+        "https://rapidaid-backend-hsn5.onrender.com/api/v1/captain/login",
         { email, password }
       );
 
