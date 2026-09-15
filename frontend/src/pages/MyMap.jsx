@@ -26,7 +26,7 @@ const MyMap = (props) => {
   const myMarkerRef = useRef(null);
 
   useEffect(() => {
-    socketRef.current = io("http://localhost:8003");
+    socketRef.current = io("https://rapidaid-backend-hsn5.onrender.com");
 
     // Get socket ID when connected
     socketRef.current.on("connect", () => {
