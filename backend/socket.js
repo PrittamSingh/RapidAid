@@ -7,7 +7,7 @@ let io;
 function initializeSocket(server) {
     io = socketIo(server, {
         cors: {
-            origin: 'http://localhost:5173',  // Allow frontend connection
+            origin: 'https://rapidaid-frontend.onrender.com',  // Allow frontend connection
             methods: ['GET', 'POST']
         }
     });
