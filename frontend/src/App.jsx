@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import Riding from "./pages/Riding";
 import UserLogin from "./pages/UserLogin";
 import UserSignup from "./pages/UserSignup";
-import UserLogout from "./pages/userLogout";
+import UserLogout from "./pages/UserLogout";
 import CaptainHome from "./pages/CaptainHome";
 import "leaflet/dist/leaflet.css";
 import HospitalSuggestion from "./Components/HospitalSuggestion";
