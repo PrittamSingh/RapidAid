@@ -20,7 +20,7 @@ const CaptainProtectWrapper = ({
             navigate('/CaptainLogin')
         }
 
-        axios.get("http://localhost:8003/api/v1/captain/profile", {
+        axios.get("https://rapidaid-backend-hsn5.onrender.com/api/v1/captain/profile", {
             headers: {
                 Authorization: `Bearer ${token}`
             }
