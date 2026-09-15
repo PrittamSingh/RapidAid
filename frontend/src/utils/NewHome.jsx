@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Features from "../components/Features";
-// import Testimonials from "../components/Testimonials";
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import Features from "../Components/Features";
+// import Testimonials from "../Components/Testimonials";
 import { Link } from "react-router-dom";
-import PhotoScroller from "../components/PhotoScroller";
-import Footer from "../components/Footer";
+import PhotoScroller from "../Components/PhotoScroller";
+import Footer from "../Components/Footer";
 
 function NewHome() {
   const navLinks = [
