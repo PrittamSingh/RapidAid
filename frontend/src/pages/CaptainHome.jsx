@@ -110,7 +110,7 @@ const CaptainHome = () => {
     try {
       const token = localStorage.getItem("captain-token");
       const res = await axios.post(
-        "http://localhost:8003/api/v1/ride/confirm",
+        "https://rapidaid-backend-hsn5.onrender.com/api/v1/ride/confirm",
         {
           rideId: ride._id,
           captainId: captain._id,
