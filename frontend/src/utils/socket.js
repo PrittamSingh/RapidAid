@@ -1,7 +1,7 @@
 // utils/socket.js
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:8003", {
+const socket = io("https://rapidaid-backend-hsn5.onrender.com", {
   transports: ['websocket'],  // Helps with connection stability
   autoConnect: true
 });
