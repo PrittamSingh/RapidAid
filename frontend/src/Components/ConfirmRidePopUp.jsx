@@ -54,7 +54,7 @@ const ConfirmRidePopUp = (props) => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8003/api/v1/ride/start-ride",
+        "https://rapidaid-backend-hsn5.onrender.com/api/v1/ride/start-ride",
         {
           rideId: props.ride?._id,
           otp: otp,
