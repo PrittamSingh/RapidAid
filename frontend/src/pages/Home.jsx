@@ -5,7 +5,7 @@ import gsap from "gsap";
 import axios from "axios";
 import { UserDataContext } from "../context/UserContext";
 import MyMap from "./MyMap";
-import { LocationContext } from "../context/searchContext";
+import { LocationContext } from "../context/SearchContext";
 import WaitingForDriver from "../Components/WaitingForDriver";
 import LookingForDriver from "../Components/LookingForDriver";
 import ConfirmRidepanel from "../Components/ConfirmRide";
