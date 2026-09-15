@@ -32,7 +32,7 @@ const UserLogin = () => {
 
       setUserData(loggedInUser);
       localStorage.setItem("token", data.token);
-      localStorage.setItem("emailSOS", JSON.stringify(data.user.emailSOS));
+      localStorage.setItem("emailSOS", JSON.stringify(loggedInUser?.emailSOS || ""));
       // ✅ Correct userId from nested user object
       socket.emit("join", {
         userId: loggedInUser._id,
